@@ -17,7 +17,8 @@ console.log(typeof year);
 
 // create a variable that references a template literal
 // inside the template literal, use two of the above variables
-let response = `"${month} hasn't really started yet since it's only the ${day}th."`;
+let response = `"The month hasn't really started yet since it's only ${day} the ${date}th."`;
+console.log(response);
 
 // re-assign the value of the variable that references "null"
 year = 2025;
