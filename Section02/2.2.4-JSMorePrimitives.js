@@ -4,7 +4,7 @@
 let day = "Tuesday";
 let date = 6;
 let spring = true;
-let month = undefined;
+let month;
 let year = null;
 
 // print the type of each variable in this order:
