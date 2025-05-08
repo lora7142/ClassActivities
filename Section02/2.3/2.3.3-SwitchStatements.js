@@ -34,7 +34,8 @@ switch (day) {
   // write a case here for the weekend (how many days in the weekend?)
   case 0:
   case 6:
-    alert(`It's the Weekend !!`);
+    console.log(`It's the Weekend !!`);
+    break;
 }
 if (dayName !== "Today") {
   console.log(dayName);
