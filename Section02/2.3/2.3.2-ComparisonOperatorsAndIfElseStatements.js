@@ -24,6 +24,7 @@ if (age >= 25) {
   console.log("Renting a car is more affordable.");
 } else if (age >= 18) {
   console.log("Renting a car is very expensive.");
-} else if (age < 18) {
+}
+if (age < 18) {
   console.log("You cannot legally rent a car.");
 }
