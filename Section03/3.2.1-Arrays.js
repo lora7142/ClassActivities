@@ -19,5 +19,6 @@ let index = 0;
 for (let number of originalArray) {
   secondArray[index] = number + 10;
   index++;
-  console.log(secondArray);
+  // console.log(secondArray);
 }
+console.log(secondArray);
