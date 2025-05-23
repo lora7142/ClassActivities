@@ -1,0 +1,39 @@
+body {
+  color: orange;
+}
+
+body a {
+  color: brown;
+}
+
+body a:visited {
+  color: black;
+}
+
+nav li:hover {
+  background-color:cadetblue;
+}
+
+nav li:first-child:hover {
+  border: 1px solid black;
+}
+
+h2 {
+  color: red;
+}
+
+main h2 {
+  color: blue;
+}
+
+.green {
+  color: green
+}
+
+#page-title {
+  color: cyan
+}
+.red-=background {
+  background-color: red;
+  color: white;
+}
