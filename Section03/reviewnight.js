@@ -111,14 +111,14 @@ const school = {
 // console.log(school.departments[0].teachers[0].schedule.monday); //print what time mr. newton teaches on Monday
 
 //marcus picks up PE and History class add to Marcus and use for of loop to loop over classes MArcus is taking
-// school.students[1].classes[3] = "PE";
-// school.students[1].classes[4] = "History";
-// let classes = school.students[1].classes;
-// for (let x of classes) {
-//   let obj = {};
-//   obj[x] = "";
-//   console.log(obj);
-// }
+school.students[1].classes[3] = "PE";
+school.students[1].classes[4] = "History";
+let classes = school.students[1].classes;
+for (let x of classes) {
+  let obj = {};
+  obj[x] = "";
+  console.log(obj);
+}
 
 // OR
 
