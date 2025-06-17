@@ -1226,7 +1226,7 @@ const user6Tasks = data.filter(item => {
 const shortTitles = data.filter(item => item.title.length < 24);
 // console.log(shortTitles);
 
-//preint even number stock prices
+//print even number stock prices
 let stockPrices = [3, 7, 2, 15, 4, 9, 21, 14];
 let even = stockPrices.filter(item => !(item % 2));
 // console.log(even);
